@@ -1,3 +1,79 @@
-body{
-   
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: Signika, sans-serif;
 }
+
+#navbar{
+  background-color: ghostwhite;
+  border: 1px solid Gainsboro;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+
+#navbar a {
+  display: block;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+
+#search{
+   float: right;
+   top:10px;
+   margin: 0px 10px 0px 10px;
+}
+
+#logo{
+    width: 40%;
+    display: block;
+}
+
+#logo{
+    width: 30%;
+    position:absolute;
+    left: 34%;
+    top: 15px;
+}
+
+#profilebar{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  height: 60px;
+  
+}
+
+
+#profilebar a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#strikkepigen{
+   font-size: 20px;
+    float: right;
+    padding-right: 50%;
+    padding-top: 5px;
+}
+
+
+#profilepic{
+    width: 14%;
+    padding-top: 5px;
+}
+
+
+#mainprofileprojectpic{
+    width: 100%;
+    padding-top: 29%
+    
+    
+}
+
