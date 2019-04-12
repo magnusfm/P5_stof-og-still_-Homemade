@@ -1,4 +1,10 @@
 
+/* css variabels */
+:root { 
+    --primary::rgb(255,255,255);
+    --grey:#4c4c4c;
+    --shadow:#000;
+}
 body {
   margin: 0;
   background-color: white;
@@ -95,3 +101,23 @@ body {
 
 /*-------projectdescriptionbar--------*/
 
+/* button */
+
+  .btn{
+    background: var(--);
+    color: var(--);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border:0;
+    border-radius: 3px;
+}
+.btn:hover{
+    background: var(--);
+    color: var(--);
+}
+
+/* grid-template-areas:'showcase showcase tba''showcase showcase tbb';
+
+
+.showcase{
+    grid-area:showcase; */
