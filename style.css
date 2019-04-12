@@ -5,6 +5,8 @@ body {
   font-family: Signika, sans-serif;
 }
 
+/*-----navbar-----*/
+
 #navbar{
   background-color: ghostwhite;
   border: 1px solid Gainsboro;
@@ -40,40 +42,56 @@ body {
     top: 15px;
 }
 
+
+/*-------Profilebar--------*/
+
 #profilebar{
   background-color: white;
   position: fixed;
   width: 100%;
   top: 50px;
-  height: 60px;
+  height: 55px;
   
 }
 
 
 #profilebar a {
   color: black;
-  padding: 5px;
+  padding: 1.5px;
   text-decoration: none;
 }
 
 #strikkepigen{
    font-size: 20px;
     float: right;
-    padding-right: 50%;
-    padding-top: 5px;
+    padding-right: 45%;
+    font-weight: normal;
 }
 
 
 #profilepic{
-    width: 14%;
+    width: 12%;
     padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#menuicon{
+    width: 30px;
+    float: right;
+    padding-top: 12px;
+    padding-right: 0px;
+    
+    
 }
 
 
 #mainprofileprojectpic{
     width: 100%;
-    padding-top: 29%
+    padding-top: 28%;
     
     
 }
+
+/*-------projectdescriptionbar--------*/
 
