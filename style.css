@@ -51,7 +51,6 @@ body {
     top: 15px;
 }
 
-
 /*-------Profilebar--------*/
 
 #profilebar{
@@ -63,7 +62,6 @@ body {
   border: 1px solid gainsboro;
   
 }
-
 
 #profilebar a {
   color: black;
@@ -78,7 +76,6 @@ body {
   width: 100%;
   top: 164%;
   height: 55px;
-  
 }
 
 
@@ -87,7 +84,6 @@ body {
   padding: 1.5px;
   text-decoration: none;
 }
-
 
 #strikkepigen{
    font-size: 18px;
@@ -105,32 +101,25 @@ body {
     padding-top: 1.48%;
 }
 
-
-
 #profilepic{
     width: 12%;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    
+    padding-left: 10px;    
 }
 
 #menuicon{
     width: 25px;
     float: right;
     padding-top: 14px;
-    padding-right: 10px;
-    
-    
+    padding-right: 10px;      
 }
 
 /*--------/mainprofileprojectsection/--------*/
 
 #mainprofileprojectpic{
     width: 100%;
-    padding-top: 28%;
-    
-    
+    padding-top: 28%;   
 }
 
 #projecticons{
@@ -179,8 +168,7 @@ body {
 
 #name{
     font-size: 18px;
-    font-weight: bold;
-     
+    font-weight: bold;    
 }
 
 #kommentar{
@@ -190,11 +178,8 @@ body {
 
 #profilebutton{
     text-decoration: none;
-    color: black;
-    
+    color: black;   
 }
-
-
 
 /*-------BottomNavbar--------*/
 
@@ -216,8 +201,7 @@ body {
 
 .navbarbottom a img{
     width: 22%;
-    
-    
+      
 }
 
 .navbarbottom {
@@ -231,10 +215,9 @@ body {
 .navbarbottom > div {
   text-align: center;
   padding: 0;
-  margin-top: 6px;
-
-  
+  margin-top: 6px; 
 }
+
 .navbarbottom h2{
 font-size:10px ;
 font-weight: 100;
@@ -247,10 +230,35 @@ color: var(--lysrød);
 .sortikon h2{ color:black;
 }
 
+/*--------------------Favorite---------------*/
+#favoritebar{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  height: 55px;
+  
 }
+
+#backicon {
+    width: 6%;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    
+}
+
+
+#profilepicfavorite{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 17%;
+}
+
 /* button */
 
-  .btn{
+  /*.btn{
     background: var(--);
     color: var(--);
     padding: 0.6rem 1.3rem;
