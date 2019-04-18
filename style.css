@@ -195,8 +195,37 @@ body {
 
 
 
-/*-------projectdescriptionbar--------*/
+/*-------BottomNavbar--------*/
 
+.navbarbottom {
+  background-color: ghostwhite;
+  border: 1px solid gainsboro;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbarbottom a{
+    padding-left: 7.4%;
+    text-decoration: none;
+    color: #FF8C8C;
+    font-size: 15px;
+}
+
+.navbarbottom a img{
+    width: 6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+    
+}
+
+
+
+
+
+}
 /* button */
 
   .btn{
