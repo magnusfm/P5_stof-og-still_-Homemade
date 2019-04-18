@@ -256,6 +256,16 @@ color: var(--lysred);
     top: 17%;
 }
 
+/*--------------profil------------*/
+
+#namefavorite{
+    text-align: center;
+    padding-top: 75%
+    
+    
+    
+}
+
 /* button */
 
   /*.btn{
