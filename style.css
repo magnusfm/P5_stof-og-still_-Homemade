@@ -121,3 +121,19 @@ body {
 
 .showcase{
     grid-area:showcase; */
+
+
+    .lownavbar {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 5px;
+        background-color:(--grey) ;
+        padding: 5px;
+      }
+      
+      .lownavbar > div {
+        background-color:grey;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 15px;
+      }
