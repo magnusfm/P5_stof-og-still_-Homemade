@@ -227,7 +227,12 @@ margin: auto;
 text-align: center;
 color: var(--lysred);
 }
-.sortikon h2{ color:black;
+.sortikon h2{ 
+color:var(--lysred);
+}
+
+.item2 h2{
+    color: black;
 }
 
 /*--------------------Favorite---------------*/
@@ -241,7 +246,7 @@ color: var(--lysred);
 }
 
 #backicon {
-    width: 6%;
+    width: 5%;
     padding-top: 16px;
     padding-bottom: 5px;
     padding-left: 15px;
@@ -276,6 +281,8 @@ color: var(--lysred);
 
 #social{
     display: inline-block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro
 }
 
 #social p{
@@ -301,6 +308,67 @@ color: var(--lysred);
 #youtube{
     width: 10%;
     margin-left: 8%
+}
+
+#troje{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+#gemteprojekter{
+    border-bottom: 1px solid gainsboro;
+}
+
+#gemteprojekter p{
+    text-align: center;
+    
+    
+}
+
+#hue{
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    padding-bottom: 10%;
+}
+
+#gemteknap{
+    background-color: var(--lysred);
+}
+
+#gemteknap a{  
+text-align: center;
+color: white;
+text-decoration: none;
+
+
+}
+
+#gemteknap p{
+padding: 4px;    
+
+}
+
+#mapperknap{
+    background-color: darkgrey;
+    padding: 0px;
+    margin-top: -16px;
+}
+
+#mapperknap a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#mapperknap p{
+    padding: 4px;
+
 }
 /* button */
 
