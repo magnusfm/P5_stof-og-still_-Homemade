@@ -3,8 +3,10 @@
 :root { 
     --primary::rgb(255,255,255);
     --grey:#4c4c4c;
+    --greylys:#9F9F9F;
     --sort:#000;
     --lysred:#FF8C8C;
+    --gain: Gainsboro;
 }
 body {
   margin: 0;
@@ -16,7 +18,7 @@ body {
 
 #navbar{
   background-color: var(--primary);
-  border: 1px solid Gainsboro;
+  border: 1px solid var(--gain);
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,7 +29,7 @@ body {
 
 #navbar a {
   display: block;
-  color: black;
+  color:  var(--sort);
   padding: 12px;
   text-decoration: none;
 }
@@ -59,19 +61,19 @@ body {
   width: 100%;
   top: 50px;
   height: 55px;
-  border: 1px solid gainsboro;
+  border: 1px solid var(--gain);
   
 }
 
 #profilebar a {
-  color: black;
+  color: var(--sort);
   padding: 1.5px;
   text-decoration: none;
 }
 
 #profilebartwo{
   background-color: var(--primary);
-  border: 1px solid gainsboro;
+  border: 1px solid var(--gain);
   position: absolute;
   width: 100%;
   top: 164%;
@@ -80,7 +82,7 @@ body {
 
 
 #profilebartwo a {
-  color: black;
+  color: var(--sort);
   padding: 1.5px;
   text-decoration: none;
 }
@@ -178,14 +180,13 @@ body {
 
 #profilebutton{
     text-decoration: none;
-    color: black;   
-}
+    color: var(--sort);
 
 /*-------BottomNavbar--------*/
 
 .navbarbottom {
   background-color:var(--primary);
-  border: 1px solid gainsboro;
+  border: 1px solid var(--gain);
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -195,7 +196,7 @@ body {
 
 .navbarbottom a{
     text-decoration: none;
-    color: #FF8C8C;
+    color: var( --lysred);
     font-size: 15px;
 }
 
@@ -232,12 +233,11 @@ color:var(--lysred);
 }
 
 .itemprofilepage h2{
-    color: black;
+    color: var(--sort);
 }
 
 .itemfrontpage h2{
-    color: black;
-}
+    color: var(--sort);
 
 
 /*--------------------Favorite---------------*/
@@ -287,7 +287,7 @@ color:var(--lysred);
 #social{
     display: inline-block;
     padding-bottom: 30px;
-    border-bottom: 1px solid gainsboro
+    border-bottom: 1px solid var(--gain);
 }
 
 #social p{
@@ -324,7 +324,7 @@ color:var(--lysred);
 }
 
 #gemteprojekter{
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid  var(--gain);
 }
 
 #gemteprojekter p{
@@ -348,7 +348,7 @@ color:var(--lysred);
 
 #gemteknap a{  
 text-align: center;
-color: white;
+color:  var(--primary);
 text-decoration: none;
 
 
@@ -446,9 +446,9 @@ input {
 }
 
 .button{
-    background-color:red;
+    background-color: var( --lysred);
     border-radius: 4px;
-    color: white;
+    color: var(--primary);
     padding: 5px;
     margin: 5px;
     display: block;
