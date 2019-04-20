@@ -131,7 +131,7 @@ body {
 
 #projecticonstwo{
    width: 100%;
-   height: 200px;
+   height: 350px;
    position: absolute;
 }
 
@@ -231,9 +231,14 @@ color: var(--lysred);
 color:var(--lysred);
 }
 
-.item2 h2{
+.itemprofilepage h2{
     color: black;
 }
+
+.itemfrontpage h2{
+    color: black;
+}
+
 
 /*--------------------Favorite---------------*/
 #favoritebar{
