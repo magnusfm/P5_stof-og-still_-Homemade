@@ -3,22 +3,20 @@
 :root { 
     --primary::rgb(255,255,255);
     --grey:#4c4c4c;
-    --greylys:#9F9F9F;
-    --sort:#000;
+    --shadow:#000;
     --lysred:#FF8C8C;
-    --gain: Gainsboro;
 }
 body {
   margin: 0;
-  background-color: var(--primary);
+  background-color: white;
   font-family: Signika, sans-serif;
 }
 
 /*-----navbar-----*/
 
 #navbar{
-  background-color: var(--primary);
-  border: 1px solid var(--gain);
+  background-color: ghostwhite;
+  border: 1px solid Gainsboro;
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,7 +27,7 @@ body {
 
 #navbar a {
   display: block;
-  color:  var(--sort);
+  color: black;
   padding: 12px;
   text-decoration: none;
 }
@@ -56,24 +54,24 @@ body {
 /*-------Profilebar--------*/
 
 #profilebar{
-  background-color:var(--primary);
+  background-color: white;
   position: absolute;
   width: 100%;
   top: 50px;
   height: 55px;
-  border: 1px solid var(--gain);
+  border: 1px solid gainsboro;
   
 }
 
 #profilebar a {
-  color: var(--sort);
+  color: black;
   padding: 1.5px;
   text-decoration: none;
 }
 
 #profilebartwo{
-  background-color: var(--primary);
-  border: 1px solid var(--gain);
+  background-color: white;
+  border: 1px solid gainsboro;
   position: absolute;
   width: 100%;
   top: 164%;
@@ -82,7 +80,7 @@ body {
 
 
 #profilebartwo a {
-  color: var(--sort);
+  color: black;
   padding: 1.5px;
   text-decoration: none;
 }
@@ -180,13 +178,14 @@ body {
 
 #profilebutton{
     text-decoration: none;
-    color: var(--sort);
+    color: black;   
+}
 
 /*-------BottomNavbar--------*/
 
 .navbarbottom {
-  background-color:var(--primary);
-  border: 1px solid var(--gain);
+  background-color: ghostwhite;
+  border: 1px solid gainsboro;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -196,7 +195,7 @@ body {
 
 .navbarbottom a{
     text-decoration: none;
-    color: var( --lysred);
+    color: #FF8C8C;
     font-size: 15px;
 }
 
@@ -233,16 +232,17 @@ color:var(--lysred);
 }
 
 .itemprofilepage h2{
-    color: var(--sort);
+    color: black;
 }
 
 .itemfrontpage h2{
-    color: var(--sort);
+    color: black;
+}
 
 
 /*--------------------Favorite---------------*/
 #favoritebar{
-  background-color:var(--primary);
+  background-color: white;
   position: absolute;
   width: 100%;
   top: 50px;
@@ -287,7 +287,7 @@ color:var(--lysred);
 #social{
     display: inline-block;
     padding-bottom: 30px;
-    border-bottom: 1px solid var(--gain);
+    border-bottom: 1px solid gainsboro
 }
 
 #social p{
@@ -324,7 +324,7 @@ color:var(--lysred);
 }
 
 #gemteprojekter{
-    border-bottom: 1px solid  var(--gain);
+    border-bottom: 1px solid gainsboro;
 }
 
 #gemteprojekter p{
@@ -348,7 +348,7 @@ color:var(--lysred);
 
 #gemteknap a{  
 text-align: center;
-color:  var(--primary);
+color: white;
 text-decoration: none;
 
 
@@ -367,7 +367,7 @@ padding: 4px;
 
 #mapperknap a{
     text-align: center;
-    color:var(--primary);
+    color: white;
     text-decoration: none;
 }
 
@@ -397,63 +397,4 @@ padding: 4px;
     grid-area:showcase; */
 
 
-/* overlay menu */
-.bg-modal {
-	background-color: rgba(0, 0, 0, 0.8);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	display: none;
-	justify-content: center;
-	align-items: center;
-}
-
-.modal-contents {
-	height: 250px;
-	width: 70%;
-	background-color:var(--primary);
-	text-align: center;
-	padding: 20px;
-	position: relative;
-    border-radius: 4px;
-    
-}
-.modal-contents img {
-    width: 30%;
-
-
-}
-input {
-	margin: 15px auto;
-	display: block;
-	width: 50%;
-	padding: 8px;
-	border: 1px solid gray;
-}
-
-.close {
-	position: absolute;
-	top: 0;
-	right: 10px;
-	font-size: 42px;
-	color: #333;
-	transform: rotate(45deg);
-	cursor: pointer;
-	&:hover {
-		color: #666;
-	}
-}
-
-.button{
-    background-color: var( --lysred);
-    border-radius: 4px;
-    color: var(--primary);
-    padding: 5px;
-    margin: 5px;
-    display: block;
-    width: 60%;
-    align-items: center;
-    text-decoration: none;
-
-}
+/* opret projekt */
