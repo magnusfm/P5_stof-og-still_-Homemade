@@ -132,17 +132,17 @@ body {
 #projecticonstwo{
    width: 100%;
    height: 350px;
-   position: absolute;
+   position: absolute ;
 }
 
 #heart{
     width: 8%;
-    position: absolute;
+    position:absolute ;
     padding: 10px 10px 10px 15px;
 }
 #comment{
     width: 7.9%;
-    position: absolute;
+    position:absolute ;
     padding: 10px 10px 10px 90px;
 }
 #favorite{
@@ -460,14 +460,64 @@ input {
     grid-area:showcase; */
 
 
-/* opret projekt */
 
 
 
+/* enkelt projekt */
 
 
+.btn-shop{
+    width: 80%;
+    text-align: center;
+    background-color: var(--lysred);
+    color: var(--primary);
+    border-radius: 3px;
+    display:block;
+    margin:auto;
+    color: #fff;
+    padding: 1px;
+    
+
+}
+.btn-shop:hover{
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    color: var(--primary);
+    border-radius: 3px;
+    display:block;
+    margin:auto;
+    color: #fff;
+    padding: 1px;
+    
+
+}
 
 
+.tidpenge{
+    margin-top: 250px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.tidpenge div{
+    padding: 10px;
+    align-items: center;
+    
+  
+}
+.tidpenge img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.ganins{
+    height: 5px;
+    border-bottom: 1px solid gainsboro;
+    display:block ;
+}
 
 
 
