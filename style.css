@@ -496,6 +496,7 @@ input {
 
 .tidpenge{
     border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
     margin-top: 250px;
     padding: 20px;
     display: grid;
@@ -519,12 +520,51 @@ input {
     display:block ;
 }
 
+.mat {
+margin: 20px;
+padding: 10px;
+
+}
+.topmat{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.topmat img{
+align-content: center;
+}
+
+.ikonkruv{
+    display: block;
+   align-items: center;
+   margin: auto;
+   
+
+}
 
 
+.ikonkruv img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+ul{
+    list-style: none;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    display: inline-block;
+    
+}
 
+.item-mat1{
+    display:inline-block;
+}
 
+.btn-shop:hover{
+background-color: black;
 
+}
 
 
 
