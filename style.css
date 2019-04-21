@@ -1134,3 +1134,46 @@ input {
 .logopart img{
     width: 50%;
 }
+
+
+.knapper{
+    margin-left: 5%;
+    padding-top: 15%;
+}
+
+.knapper h1{
+    font-size: 100px;
+}
+
+.knapper h2{
+    font-size: 40px;
+}
+
+.button1{
+    background-color:var(--lysred);
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+
+}
+
+.ikoner{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.ikoner h1{
+    font-size: 100px;
+}
+
+.ikoner img{
+    width: 5%;
+    margin: 5%;
+}
+
