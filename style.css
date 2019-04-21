@@ -2,7 +2,7 @@
 /* css variabels */
 :root { 
     --primary::rgb(255,255,255);
-    --grey:#4c4c4c;
+    --grey:#999999;
     --shadow:#000;
     --lysred:#FF8C8C;
 }
@@ -276,7 +276,7 @@ color:var(--lysred);
 
 #logout{
     font-size: 14px;
-    color: darkgrey;
+    color: var(--grey);
     float: right;
     margin-top: 47%;
     margin-right: 11%;
@@ -292,7 +292,7 @@ color:var(--lysred);
 
 #social p{
     text-align: center;
-    color: darkgray;
+    color: var(--grey);
 }
 
 #plussocial{
@@ -1010,3 +1010,77 @@ input {
     font-size: 40px;
 }
 
+.box3{
+    background-color: #000000;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.box3 p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box4{
+    background-color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 50%;
+    margin-top: 5%;
+   
+}
+
+.box4 p{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.typography{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.typography h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.typography h2{
+    font-size: 50px;
+}
+
+.typography p{
+    font-size: 22px
+}
+
+.typo1 p{
+    font-size: 30px;
+}
+
+.typo2 p{
+    font-weight: bold;
+}
+.typo3 p{
+    font-size: 18px;
+}
+
+.typo4 p{
+    font-size: 15px
+}
+
+.logopart{
+    padding-top: 15%;
+    margin-left: 5%;
+}
+
+.logopart h1{
+    font-size: 100px;
+}
+
+.logopart img{
+    width: 50%;
+}
