@@ -585,7 +585,13 @@ background-color: black;
 
 .tesktbox1{
     margin: 20px;
+    margin-bottom: 40px;
 }
+.tesktbox4{
+    margin: 20px;
+    margin-bottom: 70px;
+}
+
 
 .step1{
     margin: 20px;
