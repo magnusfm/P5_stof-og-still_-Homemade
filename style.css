@@ -495,6 +495,7 @@ input {
 
 
 .tidpenge{
+    border-top: 1px solid gainsboro;
     margin-top: 250px;
     padding: 20px;
     display: grid;
@@ -507,9 +508,8 @@ input {
     
   
 }
-.tidpenge img{
-    display: flex;
-    justify-content: center;
+.tidpenge h3{
+   font-size: 18px;
 
 }
 
